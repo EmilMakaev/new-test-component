@@ -16,6 +16,7 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "commit": "git-cz",
+    "acp": "git add . && npm run commit && git push",
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
@@ -35,7 +36,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "new-test-component",
+  "name": "new-test-component-emil",
   "author": "Emil Makaev",
   "module": "dist/new-test-component.esm.js",
   "size-limit": [
